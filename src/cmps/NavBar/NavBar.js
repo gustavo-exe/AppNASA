@@ -2,11 +2,11 @@ import '../../css/NavBar.css';
 
 function NavBar() {
     return(
-    <nav style={{height:"10vh", width:"100vw"}} className=" flex-row justify-between p-2">
+    <nav className=" flex-row justify-between p-2">
         
         <div  className="items-center hidden sm:flex flex-row justify-between px-2" >
             <a href="/"> <div className="LogoNasa  w-40 h-24 " ></div> </a>
-            <div className="Paginas sm:w-60 sm:px-4 md:w-80 justify-between flex " >
+            <div className="Paginas sm:w-60 sm:px-4 md:w-80  flex justify-between" >
                 <a className="Opcion sm:text-lg md:text-2xl" >Acerca de la NASA</a>
                 <a className="Opcion sm:text-lg md:text-2xl" >Galeria</a>
             </div>

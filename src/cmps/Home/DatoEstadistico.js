@@ -1,9 +1,9 @@
 function DatoEstadistico({cantidad, descripcion}) {
     return(
         <div className="flex-1 my-10" >
-            <span className="text-4xl md:text-6xl " >{cantidad}</span> 
+            <span className="text-4xl sm:text-6xl " >{cantidad}</span> 
             <br></br>
-            {descripcion}
+            <p className="md:text-3xl" >{descripcion}</p>
         </div>
     )
 }
