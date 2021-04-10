@@ -68,7 +68,7 @@ function Galeria(){
                     radiación. Es, con mucho, la fuente de energía más importante para la vida en la Tierra.."
                 />
                 <Tarjeta
-                    imagen="https://raw.githubusercontent.com/gustavo-exe/AppNASA/master/src/img/super%20nova.jpg"
+                    imagen="https://raw.githubusercontent.com/gustavo-exe/AppNASA/master/src/img/debris.jpg"
                     titulo="Basura Espacial"
                     descripcion="Es objetos desaparecidos hechos por humanos en el espacio, principalmente en la órbita de la Tierra, que no
                     ya tienen una función útil. Estos incluyen naves espaciales abandonadas - naves espaciales no funcionales
