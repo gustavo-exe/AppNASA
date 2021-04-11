@@ -1,14 +1,14 @@
 import '../../css/NavBar.css';
-
+import {Link} from "react-router-dom";
 function NavBar() {
     return(
     <nav className=" flex-row justify-between p-2">
         
         <div  className="items-center hidden sm:flex flex-row justify-between px-2" >
-            <a href="/"> <div className="LogoNasa  w-40 h-24 " ></div> </a>
+        <Link to={"/"}> <div className="LogoNasa  w-40 h-24 " ></div> </Link>
             <div className="Paginas sm:w-60 sm:px-4 md:w-80  flex justify-between" >
-                <a className="Opcion sm:text-lg md:text-2xl" >Acerca de la NASA</a>
-                <a className="Opcion sm:text-lg md:text-2xl" >Galeria</a>
+                <Link to={"/acercade"} className="Opcion sm:text-lg md:text-2xl" >Acerca de la NASA</Link>
+                <Link to={"/galeria"} className="Opcion sm:text-lg md:text-2xl" >Galeria</Link>
             </div>
         </div>
 
