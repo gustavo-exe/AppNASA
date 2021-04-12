@@ -1,11 +1,11 @@
 
 .ContenedorConImagen{
-    background: url('../images/Cohete.jpg') no-repeat top right ;
+    background: url('https://media.giphy.com/media/ALQ6OXrBDqBWw/giphy.gif') no-repeat top right ;
     background-size: 58vw;
-    background-position-y: 10vh;
+    background-position-y: center;
     background-position-x: top;
 }
-@media (min-width: 768px){
+@media (min-width: 768px) and (max-width: 768px){
     .ContenedorConImagen{
         background-position: center right;
     }
