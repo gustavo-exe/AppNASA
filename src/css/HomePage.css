@@ -2,13 +2,8 @@
 .ContenedorConImagen{
     background: url('https://media.giphy.com/media/ALQ6OXrBDqBWw/giphy.gif') no-repeat top right ;
     background-size: 58vw;
-    background-position-y: center;
+    background-position-y: 20vh;
     background-position-x: top;
-}
-@media (min-width: 768px) and (max-width: 768px){
-    .ContenedorConImagen{
-        background-position: center right;
-    }
 }
 /*Movil*/
 @media only screen
