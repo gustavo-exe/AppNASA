@@ -30,22 +30,22 @@ function HomePage() {
             </div>
            <div>
                <Card 
-               imagen="https://assets.stickpng.com/thumbs/580b585b2edbce24c47b2714.png"
+               imagen="https://raw.githubusercontent.com/gustavo-exe/AppNASA/master/src/img/sol.png"
                titulo="Sol"
                descripcion="El Sol ​ es una estrella de tipo-G de la secuencia principal y clase de luminosidad V que se encuentra en el centro del sistema solar y constituye la mayor fuente de radiación electromagnética de este sistema planetario."
                />
                <Card 
-               imagen="https://assets.stickpng.com/thumbs/580b585b2edbce24c47b2704.png"
+               imagen="https://raw.githubusercontent.com/gustavo-exe/AppNASA/master/src/img/tierra.png"
                titulo="Tierra"
                descripcion="La Tierra es un planeta del sistema solar que gira alrededor de su estrella —el Sol— en la tercera órbita más interna. Es el más denso y el quinto mayor de los ocho planetas del sistema solar. También es el mayor de los cuatro terrestres o rocosos. "
                />
                <Card 
-               imagen="https://assets.stickpng.com/thumbs/58f9fde10ed2bdaf7c12832d.png"
+               imagen="https://raw.githubusercontent.com/gustavo-exe/AppNASA/master/src/img/luna.png"
                titulo="Luna"
                descripcion="La Luna es el único satélite natural de la Tierra. Con un diámetro ecuatorial de 3476 km, es el quinto satélite más grande del sistema solar, mientras que en cuanto al tamaño proporcional respecto a su planeta es el satélite más grande: un cuarto del diámetro de la Tierra y 1/81 de su masa. "
                />
                <Card 
-               imagen="https://assets.stickpng.com/images/580b585b2edbce24c47b270c.png"
+               imagen="https://raw.githubusercontent.com/gustavo-exe/AppNASA/master/src/img/saturno.png"
                titulo="Saturno"
                descripcion="Saturno es el sexto planeta del sistema solar contando desde el Sol, el segundo en tamaño y masa después de Júpiter y el único con un sistema de anillos visible desde la Tierra. Su nombre proviene del dios romano Saturno. Forma parte de los denominados planetas exteriores o gaseosos."
                />
