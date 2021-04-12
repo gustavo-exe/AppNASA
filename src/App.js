@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -12,7 +12,7 @@ import AcercaDe from './cmps/AcercaDe/AcercaDe';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL} >
         <Switch>
           <Route exact path="/" >
             <HomePage/>
