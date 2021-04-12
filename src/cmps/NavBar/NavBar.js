@@ -13,7 +13,9 @@ function NavBar() {
         </div>
 
         <div className="sm:hidden items-center  flex flex-row justify-between p-2" id="mobile-menu">
+            <Link to={"/"} > 
             <div className="LogoNasa  w-20 h-12 " ></div>
+            </Link>
 
             <div className="Dropdown ">
                 <button className=" py-2 px-4 rounded inline-flex items-center">
@@ -24,8 +26,8 @@ function NavBar() {
                     </svg>
                 </button>
                 <ul className="DropdownMenu absolute hidden t-1">
-                    <li><a className="DropdownOpcion rounded-t py-2 px-4 block whitespace-no-wrap" href="#">Acerca de la NASA</a></li>
-                    <li><a className="DropdownOpcion py-2 px-4 block whitespace-no-wrap" href="#">Galeria</a></li>
+                    <li><Link to={"/acercade"} className="DropdownOpcion rounded-t py-2 px-4 block whitespace-no-wrap" href="#">Acerca de la NASA</Link></li>
+                    <li><Link to={"/galeria"} className="DropdownOpcion py-2 px-4 block whitespace-no-wrap" href="#">Galeria</Link></li>
                 </ul>
             </div>
             
